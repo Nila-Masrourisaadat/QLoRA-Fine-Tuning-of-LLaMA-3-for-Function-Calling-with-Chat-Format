@@ -9,7 +9,7 @@ notebook_login()
 !wandb login
 
 import wandb
-wb_token = "6bc725ec33ee9d6af915336699f10a71da191279"
+wb_token = "your_wb_token"
 run = wandb.init(
     project="Fine-tune Llama 3.1 8b for Function Calling 2",
     job_type="training",
